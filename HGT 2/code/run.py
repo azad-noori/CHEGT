@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -ex
+
+# This is the master script for the capsule. When you click "Reproducible Run", the code in this file will execute.
+# python -u main.py "$@"
+
+
+python -u main.py acm --gpu=0
+
+    
